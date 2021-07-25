@@ -3,10 +3,10 @@
 # Deploy on your own Risk.
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/The-HellBot/VcBot)  
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/PANDITOP)  
 
 
-# Join [@The_HellBot](https://t.me/the_hellbot) for updates and [@Its_Fuckin_Hell](https://t.me/its_fuckin_hell) for help.
+# REPORT ON [@P4NDIT_OP](https://t.me/the_ENGLISH_VINGLISH_CHAT) for updates and [@P4NDIT_OP](https://t.me/ENGLISH_VINGLISH_CHAT) for help.
 
 
 # Generate String session from [Here](https://repl.it/@subinps/getStringName)
