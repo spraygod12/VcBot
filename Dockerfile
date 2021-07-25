@@ -11,7 +11,7 @@ RUN python -m pip install wheel Pyrogram TgCrypto
 RUN python -m pip install pytgcalls ffmpeg-python psutil
 RUN python -m pip install tgintegration youtube-dl youtube_search requests
 
-RUN wget -q https://github.com/The-HellBot/VcBot/archive/hellbot.tar.gz && tar xf hellbot.tar.gz && rm hellbot.tar.gz
+RUN wget -q https://github.com/PANDITOP/VcBot/archive/PANDITOP.tar.gz && tar xf PANDITOP.tar.gz && rm PANDITOP.tar.gz
 
-WORKDIR /VcBot-hellbot
+WORKDIR /VcBot-PANDITOP
 CMD python3 main.py
