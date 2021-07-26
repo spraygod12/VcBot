@@ -1,8 +1,6 @@
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram import Client, filters
 
-
-REPO = "**🗂️ Repo :** [VcBot Repo](https://github.com/PANDITOP)\n\n🌟 **Github :** [PANDIT MUSIC BOT](https://github.com/PANDITOP) \n\n**📍   [ᴏᴡɴᴇʀ](https://t.me/P4NDIT_OP)  &  [ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ](https://t.me/P4NDIT_OP)   📍**"
 HOME_TEXT = "💖 **Hi [{}](tg://user?id={})**,\n\nI'm **Pᴀɴᴅɪᴛ Mᴜsɪᴄ ʙᴏᴛ** \nI Can Play Radio/Stream Music In Channels & Groups 24x7 Nonstop!\n\n**😉 Happy Streaming 😉**"
 HELP = """**conctact @P4NDIT_OP help!!
 
@@ -35,26 +33,11 @@ HELP = """**conctact @P4NDIT_OP help!!
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('📺 CHANNEL', url='https://t.me/WHO_IS_PANDIT_MOHIT'),
-        InlineKeyboardButton('🏘️ Group', url='https://t.me/ENGLISH_VINGLISH_CHAT'),
-    ],
-    [
-        InlineKeyboardButton('📑 GitHub', url='https://github.com/PANDITOP'),
-        InlineKeyboardButton('📜 VcBot Repo', url='https://github.com/PANDITOP'),
-    ],
-    [
-        InlineKeyboardButton('⚙️ HELP ⚙️', callback_data='help'),
-        
+        InlineKeyboardButton('Owner', url='https://t.me/P4NDIT_OP'),
     ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply(HOME_TEXT.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
-
-
-@Client.on_message(filters.command("repo"))
-async def repo(client, message):
-    await message.reply_text(REPO, disable_web_page_preview=True)
-
 
 @Client.on_message(filters.command("help"))
 async def show_help(client, message):
