@@ -1,8 +1,8 @@
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram import Client, filters
 
-HOME_TEXT = "💖 **Hi [{}](tg://user?id={})**,\n\nI'm **Pᴀɴᴅɪᴛ Mᴜsɪᴄ ʙᴏᴛ** \nI Can Play Radio/Stream Music In Channels & Groups 24x7 Nonstop!\n\n**😉 Happy Streaming 😉**"
-HELP = """**conctact @P4NDIT_OP help!!
+HOME_TEXT = "💖 **Hi [{}](tg://user?id={})**,\n\nI'm **Bᴀᴄᴋʙᴀɴᴄʜᴇʀs ᴍᴜsɪᴄ ʙᴏᴛ** \nI Can Play Radio/Stream Music In Channels & Groups 24x7 Nonstop!\n\n**😉 Happy Streaming 😉**"
+HELP = """**conctact @PR4TIK_XD help!!
 
 🏷️ **Users Commands**:
 \u2022 `/play`  -  Reply to an audio to play or add to queue.
@@ -33,7 +33,7 @@ HELP = """**conctact @P4NDIT_OP help!!
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('Owner', url='https://t.me/P4NDIT_OP'),
+        InlineKeyboardButton('Owner', url='https://t.me/PR4TIK_XD'),
     ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
